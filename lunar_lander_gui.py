@@ -189,9 +189,9 @@ if __name__ == "__main__":
     n_iterations = int(1e6)
 
     # python
-    # agent = LunarLanderAgent(observation_space=env.observation_space,
-    #                          action_space=env.action_space,
-    #                          n_iterations=n_iterations)
+    agent = LunarLanderAgent(observation_space=env.observation_space,
+                            action_space=env.action_space,
+                            n_iterations=n_iterations)
 
     # java
     # agent = LunarLanderJavaAgent(observation_space=env.observation_space,
